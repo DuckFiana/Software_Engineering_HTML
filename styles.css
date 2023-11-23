@@ -13,6 +13,9 @@ h2,h3,h4,h5,h6 {
     h2 {
         color: rgb(37, 26, 5);
     }
+    h4{
+        margin-top: -45px;
+    }
 
 section {
     margin: 7px;
@@ -26,11 +29,12 @@ section {
     }
 
     .section2 {
-    text-align:initial;
+    text-align:end;
     background-image: url("pizza.jpg");
     border-radius: 5px rgb(191, 92, 0); 
     background-color: rgba(236, 169, 69, 0.849);
-    color:blanchedalmond;
+    color:rgb(255, 255, 255);
+    font-size: larger;
     
     }
 
@@ -42,6 +46,7 @@ section {
 
     }
     table {
+        font-size: 20px;
         border: 1px black solid;
         width: 100%;
         border-collapse: collapse;
