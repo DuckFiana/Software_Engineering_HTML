@@ -6,23 +6,32 @@ h2,h3,h4,h5,h6 {
     color:rgb(46, 7, 7) ;
 }
     h1 {
+        font-size: 40px;
         color:rgb(46, 7, 7) ;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
+    }
+    h2 {
+        color: rgb(37, 26, 5);
     }
 
 section {
-    margin: 10px;
-    padding: 20px;
+    margin: 7px;
+    padding: 7px;
 }
 
 .section1 { 
     text-align: center;
     border: 4mm ridge rgb(191, 92, 0); 
-    background-color: rgba(223, 155, 54, 0.849);
+    background-color: rgba(236, 169, 69, 0.849);
     }
 
     .section2 {
+    text-align:initial;
+    background-image: url("pizza.jpg");
+    border-radius: 5px rgb(191, 92, 0); 
+    background-color: rgba(236, 169, 69, 0.849);
+    color:blanchedalmond;
+    
     }
 
     .section3 {
@@ -32,5 +41,18 @@ section {
 
 
     }
-    
+    table {
+        border: 1px black solid;
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+    }
+
+    th {
+        background-color: #ad7322; 
+        color: #fff; 
+        font-weight: bold; 
+        padding: 10px; 
+        text-align: left; 
+    }   
             
