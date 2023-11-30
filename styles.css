@@ -31,7 +31,7 @@ section {
     .section2 {
     text-align:end;
     background-image: url("pizza.jpg");
-    border-radius: 5px rgb(191, 92, 0); 
+    border-radius: 5px;
     background-color: rgba(236, 169, 69, 0.849);
     color:rgb(255, 255, 255);
     font-size: larger;
