@@ -29,12 +29,14 @@ section {
     }
 
     .section2 {
-    text-align:end;
+    text-align:justify;
     background-image: url("pizza.jpg");
     border-radius: 5px;
     background-color: rgba(236, 169, 69, 0.849);
     color:rgb(255, 255, 255);
-    font-size: larger;
+    font-size:x-large;
+    text-shadow: 1px 3px 0.1px rgb(73, 18, 18);
+    -webkit-text-stroke: 0.3px rgb(70, 61, 61);
     
     }
 
